@@ -36,3 +36,24 @@
 ├─ spaCy
 ├─ Hugging Face Transformers
 └─ Ollama (для локальных LLM)
+## 🚀 Быстрый старт
+
+### Требования
+- Docker 20.10+
+- Python 3.11
+- Node.js 18.x
+
+### Установка
+```bash
+# 1. Клонируйте репозиторий
+git clone https://github.com/yourusername/CineLingo.git
+cd CineLingo
+
+# 2. Настройте окружение
+cp .env.example .env
+
+# 3. Запустите сервисы
+docker-compose up -d
+
+# 4. Инициализируйте БД
+make migrate
