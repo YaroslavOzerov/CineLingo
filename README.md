@@ -36,6 +36,7 @@
 ├─ spaCy
 ├─ Hugging Face Transformers
 └─ Ollama (для локальных LLM)
+
 ## 🚀 Быстрый старт
 
 ### Требования
